@@ -1,0 +1,189 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Salah Eddine Ibn El Hachimy",
+    "label": "Entrepreneur | Finance Professional | Workshop Facilitator",
+    "image": "https://github.com/salaheddine8102-del/ieh_salah_eddine.github.io/blob/main/prof_photo.jpeg",
+    "email": "IbnElHachimy.SE@gmail.com",
+    "phone": "+212 708 15 77 03",
+    "summary": "I'm a Moroccan entrepreneur and finance professional currently pursuing a Master's in Finance, Control & Audit (pending defense, 2026). I co-founded TawjihYou, an AI-powered platform for student orientation and mentoring, and Dar l'Khir, an e-commerce venture.\n\nMy work blends analytical rigor with entrepreneurial spirit—specializing in financial modeling, internal control, and AI implementation for social impact. I'm passionate about experiential learning, having facilitated workshops at Microsoft Tech Days, university competitions, and regional entrepreneurship forums.\n\nAs a workshop facilitator and educator, I've trained over 200 students through hands-on programs in Design Thinking, AI tools, and startup methodology. I believe in empowering youth through accessible education and innovative technology.\n",
+    "location": {
+      "city": "Fez",
+      "region": "Morocco"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "url": "https://github.com/salaheddine8102-del",
+        "username": "salaheddine8102-del"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://linkedin.com/in/ibnelhachimy-se",
+        "username": "ibnelhachimy-se"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "TawjihYou",
+      "position": "Co-Founder & Strategic Lead",
+      "startDate": "Sep 2025",
+      "endDate": "",
+      "summary": "Co-founded an AI-powered platform that provides orientation and mentoring services to Moroccan students and youth. The platform combines educational technology with personalized guidance to support career development and academic success.\n",
+      "highlights": [
+        "Launched AI mentoring platform serving 50+ students",
+        "Developed curriculum for digital literacy and career guidance",
+        "Facilitated 200+ workshop participants across multiple programs",
+        "Built partnerships with educational institutions and youth organizations"
+      ]
+    },
+    {
+      "name": "Dar l'Khir",
+      "position": "Co-Founder & Strategic Lead",
+      "startDate": "Feb 2026",
+      "endDate": "",
+      "summary": "Co-founded an e-commerce venture focused on innovative commerce solutions in Morocco. The business combines modern digital strategies with traditional commerce practices to create accessible retail experiences.\n",
+      "highlights": [
+        "Established e-commerce operations with focus on Moroccan market",
+        "Developed supply chain and logistics frameworks",
+        "Implemented digital marketing and customer acquisition strategies"
+      ]
+    },
+    {
+      "name": "Freelance Educator & Workshop Facilitator",
+      "position": "Independent Consultant",
+      "startDate": "Jan 2026",
+      "endDate": "",
+      "summary": "Personal training and mentoring services for students and organizations. Specializing in experiential learning, Design Thinking workshops, and AI implementation for education.\n",
+      "highlights": [
+        "Delivered Design Thinking workshops at Cité de l'Innovation",
+        "Facilitated university startup competitions (2nd Place winner)",
+        "Conducted AI implementation learning at Microsoft Tech Day",
+        "Trained 50+ students in digital literacy and entrepreneurship"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Fez (pending defense)",
+      "area": "Master in Finance, Control & Audit",
+      "studyType": "",
+      "startDate": "2022",
+      "endDate": "2026"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Finance & Accounting",
+      "keywords": [
+        "Financial Analysis",
+        "Accounting",
+        "Taxation",
+        "Internal Control",
+        "Financial Modeling",
+        "Excel",
+        "Word",
+        "PowerPoint"
+      ]
+    },
+    {
+      "name": "Technology & AI",
+      "keywords": [
+        "AI Implementation",
+        "Prompt Engineering",
+        "Digital Transformation",
+        "Data Analysis"
+      ]
+    },
+    {
+      "name": "Workshop & Training",
+      "keywords": [
+        "Design Thinking",
+        "Facilitation",
+        "Curriculum Development",
+        "Public Speaking",
+        "Experiential Learning"
+      ]
+    },
+    {
+      "name": "Entrepreneurship",
+      "keywords": [
+        "Startup Strategy",
+        "Business Development",
+        "Product Management",
+        "Market Research",
+        "Brand Building"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "TawjihYou",
+      "description": "AI-powered platform for student orientation and mentoring in Morocco. Combines educational technology with personalized career guidance to support youth development.",
+      "keywords": [
+        "AI",
+        "EdTech",
+        "Mentorship",
+        "Youth Development",
+        "Digital Literacy"
+      ],
+      "url": "https://tawjihyou.com"
+    },
+    {
+      "name": "Dar l'Khir",
+      "description": "E-commerce venture focused on innovative commerce solutions in Morocco.",
+      "keywords": [
+        "E-commerce",
+        "Retail",
+        "Morocco",
+        "Digital Transformation"
+      ],
+      "url": "https://github.com/salaheddine8102-del/dar-lkhir"
+    },
+    {
+      "name": "Microsoft Tech Day - AI Implementation Workshop",
+      "description": "Hands-on workshop exploring AI adoption best practices, costs, and risk mitigation for social impact projects.",
+      "keywords": [
+        "AI",
+        "Workshop",
+        "Education",
+        "Morocco"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Design Thinking Workshop Series",
+      "description": "Facilitated multi-session Design Thinking workshops at Cité de l'Innovation for university entrepreneurs.",
+      "keywords": [
+        "Design Thinking",
+        "Facilitation",
+        "Workshop",
+        "Entrepreneurship"
+      ],
+      "url": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Design Thinking Practitioner",
+      "issuer": "Cité de l'Innovation",
+      "date": "2026",
+      "url": ""
+    }
+  ],
+  "languages": [
+    {
+      "language": "Arabic",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
+      "fluency": "Fluent"
+    }
+  ]
+}

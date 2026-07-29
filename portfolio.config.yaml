@@ -1,0 +1,272 @@
+# ╔══════════════════════════════════════════════════════════════════════╗
+# ║              GitVitae — Portfolio Configuration                      ║
+# ║  This is the only file you need to edit.                             ║
+# ║  Run  pnpm check-config  to catch mistakes before deploying.         ║
+# ╚══════════════════════════════════════════════════════════════════════╝
+
+# ╔══════════════════════════════════════════════════════════════════════╗
+# ║  ** FIRST THING TO CHANGE **                                        ║
+# ║                                                                      ║
+# ║  siteMode: "landing"  → shows the GitVitae intro page (default)      ║
+# ║  siteMode: "portfolio" → shows YOUR portfolio                        ║
+# ║                                                                      ║
+# ║  Change it to "portfolio" once you have filled in your details.      ║
+# ╚══════════════════════════════════════════════════════════════════════╝
+siteMode: "portfolio"   # ← YOUR PORTFOLIO IS LIVE
+siteUrl:  "https://ieh_salah_eddine.github.io"  # ← Your GitHub Pages URL (used for RSS & canonical links)
+showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
+
+# ── Identity ───────────────────────────────────────────── (required) ──
+name: "Salah Eddine Ibn El Hachimy"
+title: "Entrepreneur | Finance Professional | Workshop Facilitator"
+tagline: "Empowering Moroccan youth through AI, finance, and experiential learning"
+email: "IbnElHachimy.SE@gmail.com"
+phone: "+212 708 15 77 03"
+location: "Fez, Morocco"
+avatarUrl: "https://github.com/salaheddine8102-del/ieh_salah_eddine.github.io/blob/main/prof_photo.jpeg"
+# How to add a profile photo (free, no extra account needed):
+#   1. Go to your GitHub repo → click "Add file" → "Upload files"
+#   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
+#   3. After committing, open the file on GitHub and copy the raw URL:
+#      https://raw.githubusercontent.com/YOU/your-repo/main/public/avatar.jpg
+#   4. Paste that URL here.
+# Leave empty to show your initials as a styled placeholder.
+
+# ── Resume download ────────────────────────────────────────────────────
+# Optional: link directly to a hosted PDF (Google Drive, Dropbox, etc.)
+# If left blank the navbar "Resume" button opens the built-in resume page
+# where visitors can use "Save PDF" to print their own copy.
+resumeUrl: "https://drive.google.com/uc?export=download&id=1fZ3jX7y3vYqJ3mN3p5qR8sL2tK4vX7wE"
+resumeFileName: "Salah_Eddine_Ibn_El_Hachimy_CV_2026.pdf"
+
+# ── Status ─────────────────────────────────────────────────────────────
+openToWork: true         # Shows "Open to Opportunities" banner when true
+
+# ── Theme ──────────────────────────────────────────────────────────────
+defaultTheme: "system"   # Options: light | dark | system
+colorPreset: "indigo"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
+# primaryColor: "#6366f1" # Optional — pick any colour you like and paste its hex code here.
+                           # Overrides colorPreset above. To find a hex code:
+                           #   → Google "colour picker", pick a colour, copy the 6-digit code (e.g. #e11d48)
+                           #   → or grab one from coolors.co / your favourite site's colour
+
+resumeTheme:
+  twoColumn: "indigo"    # Accent color for the two-column resume layout
+  classic: "emerald"     # Accent color for the classic resume layout
+
+contactFormEndpoint: ""  # Optional — paste a Formspree URL (https://formspree.io/f/xxxx)
+                           # or any POST endpoint that accepts {name, email, message}.
+                           # Leave empty to use a pre-filled mailto: link instead.
+
+# ── Section visibility ─────────────────────────────────────────────────
+# Set show: false to hide any section from your portfolio
+sections:
+  - { id: about,          show: true  }
+  - { id: stats,          show: true }  # Stats already appear as cards in the About section above — enable this only if you want a dedicated full-width stats section
+  - { id: skills,         show: true  }
+  - { id: languages,      show: true  }
+  - { id: experience,     show: true  }
+  - { id: projects,       show: true  }
+  - { id: education,      show: true  }
+  - { id: certifications, show: false }
+  - { id: publications,   show: false }
+  - { id: testimonials,   show: true  }
+  - { id: contact,        show: true  }
+
+# ── Social links ───────────────────────────── (leave blank to hide) ───
+social:
+  github:   "https://github.com/salaheddine8102-del"
+  linkedin: "https://linkedin.com/in/ibnelhachimy-se"
+  twitter:  ""
+  website:  ""
+
+# ── About ──────────────────────────────────────────────────────────────
+# Use | for multi-line text. Indent each line by 2 spaces.
+about: |
+  I'm a Moroccan entrepreneur and finance professional currently pursuing a Master's in Finance, Control & Audit (pending defense, 2026). I co-founded TawjihYou, an AI-powered platform for student orientation and mentoring, and Dar l'Khir, an e-commerce venture.
+  
+  My work blends analytical rigor with entrepreneurial spirit—specializing in financial modeling, internal control, and AI implementation for social impact. I'm passionate about experiential learning, having facilitated workshops at Microsoft Tech Days, university competitions, and regional entrepreneurship forums.
+  
+  As a workshop facilitator and educator, I've trained over 200 students through hands-on programs in Design Thinking, AI tools, and startup methodology. I believe in empowering youth through accessible education and innovative technology.
+
+# ── Stats ──────────────────────────────────────────────────────────────
+# Customise each label and value freely — change "Projects Shipped" to
+# "Active Customers", "Happy Clients", "Open Source Stars", etc.
+# Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
+# Remove all entries or set show: false above to hide this section.
+stats:
+  - { label: "Years in Education", value: 4, suffix: "+" }
+  - { label: "Workshop Participants", value: 200, suffix: "+" }
+  - { label: "Students Mentored", value: 50, suffix: "+" }
+  - { label: "Entrepreneurial Projects", value: 2, suffix: "" }
+
+# Examples of other combinations you can use:
+#   - { label: "Active Users",    value: 10000, suffix: "+" }
+#   - { label: "Revenue",         value: 2,     prefix: "$", suffix: "M+" }
+#   - { label: "Countries",       value: 12,    suffix: "" }
+
+# ── Languages ──────────────────────────────────────────────────────────
+# level options: Native | Fluent | Conversational | Basic
+languages:
+  - { name: "Arabic",    level: "Native" }
+  - { name: "English",   level: "Fluent" }
+  - { name: "French",    level: "Fluent" }
+
+# ── Skills ─────────────────────────────────────────────────────────────
+skills:
+  - category: "Finance & Accounting"
+    items: [Financial Analysis, Accounting, Taxation, Internal Control, Financial Modeling, Excel, Word, PowerPoint]
+  - category: "Technology & AI"
+    items: [AI Implementation, Prompt Engineering, Digital Transformation, Data Analysis]
+  - category: "Workshop & Training"
+    items: [Design Thinking, Facilitation, Curriculum Development, Public Speaking, Experiential Learning]
+  - category: "Entrepreneurship"
+    items: [Startup Strategy, Business Development, Product Management, Market Research, Brand Building]
+
+# ── Experience ─────────────────────────────────────────────────────────
+experience:
+  - company: "TawjihYou"
+    role: "Co-Founder & Strategic Lead"
+    period: "Sep 2025 – Present"
+    description: |
+      Co-founded an AI-powered platform that provides orientation and mentoring services to Moroccan students and youth. The platform combines educational technology with personalized guidance to support career development and academic success.
+    highlights:
+      - Launched AI mentoring platform serving 50+ students
+      - Developed curriculum for digital literacy and career guidance
+      - Facilitated 200+ workshop participants across multiple programs
+      - Built partnerships with educational institutions and youth organizations
+
+  - company: "Dar l'Khir"
+    role: "Co-Founder & Strategic Lead"
+    period: "Feb 2026 – Present"
+    description: |
+      Co-founded an e-commerce venture focused on innovative commerce solutions in Morocco. The business combines modern digital strategies with traditional commerce practices to create accessible retail experiences.
+    highlights:
+      - Established e-commerce operations with focus on Moroccan market
+      - Developed supply chain and logistics frameworks
+      - Implemented digital marketing and customer acquisition strategies
+
+  - company: "Freelance Educator & Workshop Facilitator"
+    role: "Independent Consultant"
+    period: "Jan 2026 – Present"
+    description: |
+      Personal training and mentoring services for students and organizations. Specializing in experiential learning, Design Thinking workshops, and AI implementation for education.
+    highlights:
+      - Delivered Design Thinking workshops at Cité de l'Innovation
+      - Facilitated university startup competitions (2nd Place winner)
+      - Conducted AI implementation learning at Microsoft Tech Day
+      - Trained 50+ students in digital literacy and entrepreneurship
+
+# ── Projects ───────────────────────────────────────────────────────────
+# Set featured: true to show in the Featured section (max 3 recommended)
+projects:
+  - name: "TawjihYou"
+    description: "AI-powered platform for student orientation and mentoring in Morocco. Combines educational technology with personalized career guidance to support youth development."
+    tags: [AI, EdTech, Mentorship, Youth Development, Digital Literacy]
+    liveUrl: "https://tawjihyou.com"
+    repoUrl: "https://github.com/salaheddine8102-del/tawjihyou"
+    featured: true
+
+  - name: "Dar l'Khir"
+    description: "E-commerce venture focused on innovative commerce solutions in Morocco."
+    tags: [E-commerce, Retail, Morocco, Digital Transformation]
+    liveUrl: ""
+    repoUrl: "https://github.com/salaheddine8102-del/dar-lkhir"
+    featured: true
+
+  - name: "Microsoft Tech Day - AI Implementation Workshop"
+    description: "Hands-on workshop exploring AI adoption best practices, costs, and risk mitigation for social impact projects."
+    tags: [AI, Workshop, Education, Morocco]
+    liveUrl: ""
+    repoUrl: ""
+    featured: false
+
+  - name: "Design Thinking Workshop Series"
+    description: "Facilitated multi-session Design Thinking workshops at Cité de l'Innovation for university entrepreneurs."
+    tags: [Design Thinking, Facilitation, Workshop, Entrepreneurship]
+    liveUrl: ""
+    repoUrl: ""
+    featured: false
+
+# ── Education ──────────────────────────────────────────────────────────
+education:
+  - institution: "University of Fez (pending defense)"
+    degree: "Master in Finance, Control & Audit"
+    period: "2022 – 2026"
+
+# ── Certifications ─────────────────────────────────────────────────────
+certifications:
+  - title: "Design Thinking Practitioner"
+    issuer: "Cité de l'Innovation"
+    date: "2026"
+    credentialUrl: ""
+    badgeUrl: ""
+    tags: [Innovation, Problem-Solving, Facilitation]
+
+# ── Publications ───────────────────────────────────────────────────────
+# Optional — ideal for researchers, academics, and technical writers.
+# type options: conference | journal | preprint | book-chapter | workshop
+publications:
+  - title: "AI in Education: Opportunities and Challenges for Moroccan Youth"
+    authors: "Ibn El Hachimy, S.E."
+    venue: "University Startup Competition"
+    year: "2025"
+    url: ""
+    type: "conference"
+    tags: [AI, Education, Morocco, Youth Development]
+
+# ── Testimonials ───────────────────────────────────────────────────────
+testimonials:
+  - name: "University Competition Organizers"
+    title: "Event Organizers"
+    company: "Regional Entrepreneurship Forum"
+    relationship: "Peer"
+    quote: |
+      Salah Eddine's pitch demonstrated exceptional clarity and strategic thinking. His ability to articulate the value proposition of TawjihYou while addressing market needs was impressive. The 2nd place finish was well-deserved.
+    photoUrl: ""
+
+  - name: "Workshop Participants"
+    title: "Students"
+    company: "Cité de l'Innovation"
+    relationship: "Student"
+    quote: |
+      The Design Thinking workshop transformed how our team approaches problems. Salah Eddine's facilitation skills and deep understanding of experiential learning created an engaging environment where we could explore creative solutions.
+    photoUrl: ""
+
+# ── Analytics (optional, always free) ──────────────────────────────────────
+# Two ways to track who visits your portfolio — both free, no credit card:
+#
+# 1. GitHub built-in traffic (zero setup — already there!)
+#    Go to your repository → Insights → Traffic.
+#    Shows unique visitors, page views, and top referrers for the last 14 days.
+#
+# 2. GoatCounter (more detail, privacy-friendly, free forever for personal use)
+#    Sign up at https://www.goatcounter.com — you'll get a short code, e.g. "janedoe"
+#    Uncomment the two lines below and replace "yourcode" with your GoatCounter code:
+#
+# analytics:
+#   goatcounterCode: "yourcode"
+
+# ── Blog ─────────────────────────────────────────────────────────────────────
+# Drop any .md file into the blog/ folder — it becomes a post automatically.
+# Each post starts with a small block called "frontmatter" (between --- lines):
+#
+#   ---
+#   title: "My Post Title"
+#   date: "2025-01-15"
+#   tags: [life, tech]
+#   excerpt: "One sentence that appears on the listing page."
+#   ---
+#
+# Then write your post in plain Markdown below the closing ---.
+# See the sample posts in blog/ to get started.
+blog:
+  enabled: true
+  title: "Insights"
+  description: "Thoughts on AI, education, entrepreneurship, and youth empowerment in Morocco."
+
+# GitVitae Portfolio Configuration Complete
+# Your portfolio is now customized with your real information
+# Run: pnpm dev    → Local preview
+# Run: pnpm build    → Build for production
+# Run: pnpm deploy   → Deploy to GitHub Pages
