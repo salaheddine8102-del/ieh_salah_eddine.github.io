@@ -27,7 +27,7 @@ avatarUrl: "https://github.com/salaheddine8102-del/ieh_salah_eddine.github.io/bl
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
-#   3. After committing, open the file on GitHub and copy the raw URL:
+#   3. After committing, open the file on GitHub and copy the  raw URL:
 #      https://raw.githubusercontent.com/YOU/your-repo/main/public/avatar.jpg
 #   4. Paste that URL here.
 # Leave empty to show your initials as a styled placeholder.
